@@ -5,7 +5,7 @@ const TodoSection = ({ title, todos, action }) => {
     return (
         <div className={styles.todoSection}>
             <h1 className="title">
-                {title} - {todos.length}
+                {title} - {todos.lenght}
             </h1>
 
             <TodoList todos={todos} action={action} />
